@@ -51,7 +51,7 @@ func out(level int, a interface{}) {
 		if err == nil {
 			fmt.Fprintf(f, "%v", a)
 			f.Close()
-		}else{
+		} else {
 			Warn("Can not open log file")
 		}
 	}
@@ -66,7 +66,7 @@ func out(level int, a interface{}) {
 		}
 	}
 	fmt.Fprintf(os.Stderr, "%v", a)
-	
+
 }
 
 func Error(a interface{}) {
