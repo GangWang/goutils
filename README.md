@@ -4,7 +4,7 @@ goutils
 golang utils,logger,color,swrap,strings etc.
 
 ####logger
-	logger.Init(4,"log")
+	logger.Init(4,"log.txt")
 	logger.Info("info")
 	logger.Debug("debug")
 	logger.Warn("warn")
